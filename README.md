@@ -1,1 +1,4 @@
 # video-Biometric
+
+The Iris Recognition module is then fed either the resulting iris images from the Video Processing module or the loaded still image. For both video and still iris images, VASIR segments the iris region based on VASIR's segmentation approach. The segmented iris regions are then extracted and normalized based on polar coordinates transformations and bilinear interpolation. Next, VASIR extracts the features from the normalized iris images and encodes the extracted features as binary strings along with a VASIR-developed noise-masking scheme. At the end, VASIR matches the encoded biometric iris template to other existing iris templates. The Iris Recognition module consists of four components: segmentation, normalization, feature extraction/encoding, and similarity distance metric. All three module procedures are completely auto­matic.
+
